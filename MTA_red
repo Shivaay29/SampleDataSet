@@ -1,0 +1,21 @@
+from statsmodels.tsa.stattools import adfuller
+from datetime import datetime, date
+import matplotlib.pyplot as plt
+import ruptures as rpt
+import pandas as pd
+import numpy as np
+import json
+import requests
+import matplotlib as mpl
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+import matplotlib.dates as mpl_dates
+from email.mime.image import MIMEImage
+import io
+
+import warnings
+warnings.filterwarnings("ignore")
+
+
+Output_path = r'C:\Users\Rahul Singh\Desktop\Docs\py\Output_Path//'
